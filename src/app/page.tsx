@@ -12,10 +12,9 @@ export default function Home() {
           <p className="text-xl mb-8 text-blue-100">
             Empowering youth with tools & opportunities for meaningful employment and entrepreneurship
           </p>
-          <a 
-            <Link href="#apply">
-              Join the Program
-            </Link>
+          <Link href="#apply" className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors inline-block">
+            Join the Program
+          </Link>
         </div>
       </section>
 
