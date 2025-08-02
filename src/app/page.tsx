@@ -88,7 +88,7 @@ export default function Home() {
                 </div>
                 <div className="p-4 bg-blue-100 rounded-lg">
                   <h4 className="font-semibold text-blue-800">Develop Skilled Professionals</h4>
-                  <p className="text-gray-600 text-sm">Foster a new generation ready to contribute to Uganda's economy</p>
+                  <p className="text-gray-600 text-sm">Foster a new generation ready to contribute to Uganda&apos;s economy</p>
                 </div>
                 <div className="p-4 bg-blue-200 rounded-lg">
                   <h4 className="font-semibold text-blue-900">Create Sustainable Impact</h4>
@@ -311,7 +311,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-lg font-bold text-blue-900 mb-2">Digital Economy</h3>
-              <p className="text-gray-600 text-sm">Strengthen Uganda's digital economy through skilled talent development</p>
+                  <p className="text-gray-600 text-sm">Strengthen Uganda&apos;s digital economy through skilled talent development</p>
             </div>
           </div>
           {/* Success Metrics */}

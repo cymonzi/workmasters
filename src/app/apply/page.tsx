@@ -261,8 +261,8 @@ export default function Apply() {
                   <option value="a-level">A-Level</option>
                   <option value="certificate">Certificate</option>
                   <option value="diploma">Diploma</option>
-                  <option value="bachelor">Bachelor's Degree</option>
-                  <option value="master">Master's Degree</option>
+                  <option value="bachelor">Bachelor&apos;s Degree</option>
+                  <option value="master">Master&apos;s Degree</option>
                   <option value="other">Other</option>
                 </select>
               </div>
@@ -287,7 +287,7 @@ export default function Apply() {
                 <textarea
                   rows={4}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
-                  placeholder="Tell us about your goals and why you're interested in this program..."
+                  placeholder="Tell us about your goals and why you&apos;re interested in this program..."
                 ></textarea>
               </div>
 
