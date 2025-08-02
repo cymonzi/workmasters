@@ -393,8 +393,8 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-lg font-bold text-blue-900 mb-1">Tugume Andrew</h3>
-              <p className="text-blue-600 font-semibold mb-2">Inclusion Support Specialist</p>
-              <p className="text-gray-600 text-sm">Sign Language & PWD inclusion support</p>
+              <p className="text-blue-600 font-semibold mb-2">Work Readiness Lead Trainer</p>
+              <p className="text-gray-600 text-sm">Leading training programs and skill development</p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg text-center">
