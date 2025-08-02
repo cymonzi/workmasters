@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -31,22 +32,22 @@ const Footer = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2">
-                <li><a href="/#home" className="text-gray-300 hover:text-blue-400 transition-colors">Home</a></li>
-                <li><a href="/#about" className="text-gray-300 hover:text-blue-400 transition-colors">About</a></li>
-                <li><a href="/#programs" className="text-gray-300 hover:text-blue-400 transition-colors">Programs</a></li>
-                <li><a href="/#impact" className="text-gray-300 hover:text-blue-400 transition-colors">Impact</a></li>
-                <li><a href="/#team" className="text-gray-300 hover:text-blue-400 transition-colors">Team</a></li>
-                <li><a href="/apply" className="text-gray-300 hover:text-blue-400 transition-colors">Apply</a></li>
+                <li><Link href="/#home" className="text-gray-300 hover:text-blue-400 transition-colors">Home</Link></li>
+                <li><Link href="/#about" className="text-gray-300 hover:text-blue-400 transition-colors">About</Link></li>
+                <li><Link href="/#programs" className="text-gray-300 hover:text-blue-400 transition-colors">Programs</Link></li>
+                <li><Link href="/#impact" className="text-gray-300 hover:text-blue-400 transition-colors">Impact</Link></li>
+                <li><Link href="/#team" className="text-gray-300 hover:text-blue-400 transition-colors">Team</Link></li>
+                <li><Link href="/apply" className="text-gray-300 hover:text-blue-400 transition-colors">Apply</Link></li>
               </ul>
             </div>
           {/* Programs */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Programs</h4>
             <ul className="space-y-2">
-              <li><a href="/#programs" className="text-gray-300 hover:text-blue-400 transition-colors">Internship</a></li>
-              <li><a href="/#programs" className="text-gray-300 hover:text-blue-400 transition-colors">Apprenticeship</a></li>
-              <li><a href="/#programs" className="text-gray-300 hover:text-blue-400 transition-colors">Bootcamps</a></li>
-              <li><a href="/#programs" className="text-gray-300 hover:text-blue-400 transition-colors">Coaching</a></li>
+              <li><Link href="/#programs" className="text-gray-300 hover:text-blue-400 transition-colors">Internship</Link></li>
+              <li><Link href="/#programs" className="text-gray-300 hover:text-blue-400 transition-colors">Apprenticeship</Link></li>
+              <li><Link href="/#programs" className="text-gray-300 hover:text-blue-400 transition-colors">Bootcamps</Link></li>
+              <li><Link href="/#programs" className="text-gray-300 hover:text-blue-400 transition-colors">Coaching</Link></li>
             </ul>
           </div>
         </div>
