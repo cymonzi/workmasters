@@ -1,6 +1,5 @@
 import React from 'react';
-import Navbar from '../../components/Navbar';
-import Footer from '../../components/Footer';
+import Link from 'next/link';
 
 export default function Apply() {
   return (
@@ -25,7 +24,7 @@ export default function Apply() {
               <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white font-bold text-xl">1</span>
               </div>
-              <h3 className="font-semibold text-blue-900 mb-2"><a href="/#apply">Apply Online</a></h3>
+              <h3 className="font-semibold text-blue-900 mb-2"><Link href="/#apply">Apply Online</Link></h3>
               <p className="text-gray-600 text-sm">Submit your application form with required documents</p>
             </div>
 
@@ -33,7 +32,7 @@ export default function Apply() {
               <div className="w-16 h-16 bg-blue-700 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white font-bold text-xl">2</span>
               </div>
-              <h3 className="font-semibold text-blue-900 mb-2"><a href="/#about">Assessment</a></h3>
+              <h3 className="font-semibold text-blue-900 mb-2"><Link href="/#about">Assessment</Link></h3>
               <p className="text-gray-600 text-sm">Skills assessment and interview process</p>
             </div>
 
@@ -41,7 +40,7 @@ export default function Apply() {
               <div className="w-16 h-16 bg-blue-800 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white font-bold text-xl">3</span>
               </div>
-              <h3 className="font-semibold text-blue-900 mb-2"><a href="/#programs">Selection</a></h3>
+              <h3 className="font-semibold text-blue-900 mb-2"><Link href="/#programs">Selection</Link></h3>
               <p className="text-gray-600 text-sm">Review and selection of qualified candidates</p>
             </div>
 
@@ -49,7 +48,7 @@ export default function Apply() {
               <div className="w-16 h-16 bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white font-bold text-xl">4</span>
               </div>
-              <h3 className="font-semibold text-blue-900 mb-2"><a href="/#team">Enrollment</a></h3>
+              <h3 className="font-semibold text-blue-900 mb-2"><Link href="/#team">Enrollment</Link></h3>
               <p className="text-gray-600 text-sm">Program orientation and enrollment</p>
             </div>
           </div>
@@ -331,7 +330,7 @@ export default function Apply() {
                 </svg>
               </div>
               <h3 className="font-semibold mb-2">Call Us</h3>
-              <p className="text-blue-100"><a href="/">+256755017384</a></p>
+              <p className="text-blue-100"><Link href="/">+256755017384</Link></p>
             </div>
 
             <div>
@@ -342,7 +341,7 @@ export default function Apply() {
                 </svg>
               </div>
               <h3 className="font-semibold mb-2">Email Us</h3>
-              <p className="text-blue-100"><a href="/">info@qraftacademy.com</a></p>
+              <p className="text-blue-100"><Link href="/">info@qraftacademy.com</Link></p>
             </div>
 
             <div>
@@ -352,7 +351,7 @@ export default function Apply() {
                 </svg>
               </div>
               <h3 className="font-semibold mb-2">Visit Us</h3>
-              <p className="text-blue-100"><a href="/">Plot 4–10 Kiwana Road, Bukoto<br />Kampala, Uganda</a></p>
+              <p className="text-blue-100"><Link href="/">Plot 4–10 Kiwana Road, Bukoto<br />Kampala, Uganda</Link></p>
             </div>
           </div>
         </div>
